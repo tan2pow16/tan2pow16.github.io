@@ -1,0 +1,220 @@
+body {
+  background-color: #222;
+  color: #EFD;
+  font-family: 'Segoe UI';
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+  scrollbar-color: revert;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  color: #FFC;
+  font-weight: lighter;
+}
+
+select {
+  color: #EFD;
+  background-color: #444;
+}
+
+a:link {
+  color: #DDA;
+}
+
+a:visited {
+  color: #DDA;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.tools {
+  width: 100%;
+  border-top: #777 solid 3px;
+  border-collapse: collapse;
+}
+
+.tools-header {
+  font-family: monospace;
+  font-weight: lighter;
+  font-size: 16px;
+  background-color: #444;
+  padding-bottom: 4px;
+}
+
+.tools-panel {
+  width: 50%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  vertical-align: top;
+  font-weight: lighter;
+}
+
+.tools-panel-left {
+  border-right: #777 solid 3px;
+}
+
+.tools-panel-right {
+  border-left: #777 solid 3px;
+}
+
+.bottom-padded-thin {
+  margin-bottom: 8px;
+}
+
+.bottom-padded-mid {
+  margin-bottom: 16px;
+}
+
+.bottom-padded {
+  display: block;
+  margin-bottom: 32px;
+}
+
+.tool-item {
+  width: 90%;
+  font-size: 14px;
+}
+
+.input-block {
+  background-color: #333;
+  border: 1px solid #444;
+  font-family: monospace;
+  color: #BDD;
+  resize: none;
+}
+
+.input-field {
+  width: auto;
+}
+
+.input-submit {
+  background-color: #555;
+  color: #DFB;
+  width: 128px;
+  height: 32px;
+  border: 1px solid #777;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bolder;
+  font-family: Verdana;
+}
+
+.input-submit:hover {
+  background-color: #666;
+}
+
+.output-table {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  font-family: Calibri;
+  letter-spacing: 1px;
+  border-collapse: collapse;
+}
+
+.output-header {
+  background-color: #555;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.output-entry {
+  border: 1px solid #777;
+  padding: 4px;
+}
+
+.output-name {
+  font-weight: lighter;
+}
+
+.output-value {
+  font-family: monospace;
+  letter-spacing: normal;
+}
+
+.output-row-1 {
+  background-color: #333;
+}
+
+.output-row-2 {
+  background-color: #444;
+}
+
+.fix-left {
+  margin-left: 4%;
+}
+
+.error-msg {
+  font-family: monospace;
+  font-size: 16px;
+  color: #F77;
+}
+
+.footer {
+  background-color: #111;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.footer-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.footer-panel {
+  width: 50%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  line-height: 1.5;
+}
+
+.footer-left {
+  border-right: 3px solid #333;
+}
+
+.footer-right {
+  border-left: 3px solid #333;
+}
+
+.footer-padding {
+  width: 50%;
+  height: 2px;
+}
+
+::-webkit-scrollbar {
+  background: #333;
+}
+
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 0 4px #333, inset 0 0 0 4px #666;
+  border-radius: 16px;
+  background: #666;
+}
+
+::-webkit-scrollbar-corner {
+  background: #555;
+}
+
+.tangent {
+  color: #0F0;
+  font-weight: normal;
+}
+
+._0x10000 {
+  color: #0FF;
+  font-weight: normal;
+}

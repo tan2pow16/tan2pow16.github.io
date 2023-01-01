@@ -1,0 +1,144 @@
+body {
+  background-color: #222;
+  color: #EFD;
+  font-family: 'Segoe UI';
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+  scrollbar-color: revert;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  color: #FFC;
+  font-weight: lighter;
+}
+
+a:link {
+  color: #DDA;
+}
+
+a:visited {
+  color: #DDA;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.bottom-padded {
+  display: block;
+  margin-bottom: 32px;
+}
+
+.intro {
+  background-color: #333;
+  border: 1px solid #444;
+  margin: 16px;
+  margin-bottom: 64px;
+  padding: 8px;
+}
+
+.intro-text {
+  padding-left: 8px;
+  font-weight: lighter;
+  line-height: 1.5;
+}
+
+.doc-body {
+  width: 100%;
+}
+
+.doc-table {
+  width: 100%;
+  text-align: start;
+  border-collapse: collapse;
+  border-top: 3px solid #333;
+}
+
+.doc-panel {
+  padding: 16px;
+  padding-bottom: 128px;
+  font-weight: lighter;
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  vertical-align: top;
+}
+
+.doc-panel-left {
+  width: 50%;
+  border-right: 3px solid #333;
+}
+
+.doc-panel-right {
+  width: 50%;
+  border-left: 3px solid #333;
+}
+
+.footer {
+  background-color: #111;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.footer-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.footer-panel {
+  width: 50%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  line-height: 1.5;
+}
+
+.footer-padding {
+  width: 50%;
+  height: 2px;
+}
+
+.footer-left {
+  border-right: 3px solid #222;
+}
+
+.footer-right {
+  border-left: 3px solid #222;
+}
+
+::-webkit-scrollbar {
+  background: #444;
+}
+
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 0 4px #444, inset 0 0 0 4px #666;
+  border-radius: 16px;
+  background: #666;
+}
+
+::-webkit-scrollbar-corner {
+  background: #555;
+}
+
+.normal-weight {
+  font-weight: normal;
+}
+
+.tangent {
+  color: #0F0;
+}
+
+._0x10000 {
+  color: #0FF;
+}
