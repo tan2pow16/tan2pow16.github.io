@@ -181,7 +181,7 @@ class OutputPanel extends React.Component {
     return ret;
   }
   static #bitlen(bn) {
-    let ret = bn.length * 26;
+    let ret = bn.length * BN.wordSize;
     let cache = bn.words[bn.length - 1];
     let flag = 1 << 25;
     while (!(cache & flag)) {
