@@ -11,11 +11,6 @@ class Header extends React.Component {
   }
 }
 class Tools extends React.Component {
-  updateInput;
-  updatePasswd;
-  doParsing;
-  outputCallIn;
-  outputCallback;
   constructor(props) {
     super(props);
     this.state = {
@@ -74,7 +69,6 @@ class Tools extends React.Component {
   }
 }
 class InputPanel extends React.Component {
-  placeholder;
   constructor(props) {
     super(props);
     this.placeholder = '-----BEGIN RSA PRIVATE KEY-----\nMIGrAgEAAiEA2Korfvz/SeLAxY3tRF8la5XAkQlzHOZ7RAvdLZH/th8CAwEAAQIg\nYNKTA3m9/9+0M9R77mzyhDHy+AwHGYEkMmXkSrDykPECEQDuMmD7uz66i9U27ObQ\nNku3AhEA6NvMvwed57R8s/8EeuK42QIRANyQzfmMI8P95AueRwUaofUCEQCqSQKj\nuDg7V3vSTW3DR8WRAhBqRey/FLy8U7OUJvD4NUni\n-----END RSA PRIVATE KEY-----';
@@ -104,9 +98,6 @@ class InputPanel extends React.Component {
   }
 }
 class OutputPanel extends React.Component {
-  selectFormat;
-  formatBN;
-  setOutput;
   static ec_curves = new Map();
   static {
     OutputPanel.ec_curves.set('1.3.132.0.10', {
