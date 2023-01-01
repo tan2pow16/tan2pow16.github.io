@@ -98,33 +98,6 @@ class InputPanel extends React.Component {
   }
 }
 class OutputPanel extends React.Component {
-  static ec_curves = new Map();
-  static {
-    OutputPanel.ec_curves.set('1.3.132.0.10', {
-      name: 'secp256k1',
-      length: 256
-    });
-    OutputPanel.ec_curves.set('1.3.132.0.33', {
-      name: 'P-224',
-      length: 224
-    });
-    OutputPanel.ec_curves.set('1.2.840.10045.3.1.1', {
-      name: 'P-192',
-      length: 192
-    });
-    OutputPanel.ec_curves.set('1.2.840.10045.3.1.7', {
-      name: 'P-256',
-      length: 256
-    });
-    OutputPanel.ec_curves.set('1.3.132.0.34', {
-      name: 'P-384',
-      length: 384
-    });
-    OutputPanel.ec_curves.set('1.3.132.0.35', {
-      name: 'P-521',
-      length: 521
-    });
-  }
   constructor(props) {
     super(props);
     this.state = {
@@ -415,6 +388,35 @@ class OutputPanel extends React.Component {
     return ret;
   }
 }
+
+(function() {
+  OutputPanel.ec_curves = new Map();
+  OutputPanel.ec_curves.set('1.3.132.0.10', {
+    name: 'secp256k1',
+    length: 256
+  });
+  OutputPanel.ec_curves.set('1.3.132.0.33', {
+    name: 'P-224',
+    length: 224
+  });
+  OutputPanel.ec_curves.set('1.2.840.10045.3.1.1', {
+    name: 'P-192',
+    length: 192
+  });
+  OutputPanel.ec_curves.set('1.2.840.10045.3.1.7', {
+    name: 'P-256',
+    length: 256
+  });
+  OutputPanel.ec_curves.set('1.3.132.0.34', {
+    name: 'P-384',
+    length: 384
+  });
+  OutputPanel.ec_curves.set('1.3.132.0.35', {
+    name: 'P-521',
+    length: 521
+  });
+})();
+
 class Footer extends React.Component {
   constructor(props) {
     super(props);
